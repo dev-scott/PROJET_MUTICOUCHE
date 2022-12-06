@@ -29,7 +29,8 @@ namespace GestionLocation.Dal
         }
 
   
-        public Car FindById(int Id)
+        
+        /*public Car FindById(int Id)
         {
             
             List<Car> cars = GetCars();
@@ -38,32 +39,10 @@ namespace GestionLocation.Dal
 
             });
         }
-
-        
+        */
 
        
-        public Car Update(Car car)
-        {
-
-            int CarIndex = Parent.cars.FindIndex(delegate (Car item)
-            {
-                return item.id == car.IsDisposed;
-            }
-         
-            
-            
-
-            if (CarIndex >= 0)
-            {
-                Parent.cars[CarIndex] = car;
-                return car;
-            }
-            else
-            {
-                throw new Exception("Objet car non existant!");
-            }
-            
-        }
+  
 
    
         /*
