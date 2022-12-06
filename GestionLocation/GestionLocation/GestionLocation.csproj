@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dal\CarDal.cs" />
+    <Compile Include="Dal\CustomerDal.cs" />
     <Compile Include="Type\Commons\Car.cs" />
     <Compile Include="Type\Commons\Customer.cs" />
     <Compile Include="Type\Commons\Rental.cs" />

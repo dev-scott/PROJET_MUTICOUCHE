@@ -23,31 +23,35 @@ namespace GestionLocation.Dal
             return this.Parent.cars;
         }
 
-        public void AddCars(Car car)
+        public void AddCar(Car car)
         {
             this.Parent.cars.Add(car);
         }
 
-        /**
-         * DAL to find Building by ID
-         * @param int Id
-         * @return Bulding building
-         * */
+  
         public Car FindById(int Id)
         {
+            
             List<Car> cars = GetCars();
             return cars.Find(delegate (Car item)
             {
-                return item.Id == Id;
+
             });
         }
 
+        
+
+       
         public Car Update(Car car)
         {
+
             int CarIndex = Parent.cars.FindIndex(delegate (Car item)
             {
-                return item.Id == car.Id;
-            });
+                return item.id == car.IsDisposed;
+            }
+         
+            
+            
 
             if (CarIndex >= 0)
             {
@@ -58,8 +62,11 @@ namespace GestionLocation.Dal
             {
                 throw new Exception("Objet car non existant!");
             }
+            
         }
 
+   
+        /*
         public int Delete(int Id)
         {
             int CArIndex = Parent.cars.FindIndex(delegate (Car car)
@@ -77,6 +84,8 @@ namespace GestionLocation.Dal
                 throw new Exception("Objet Car non existant!", new KeyNotFoundException("Objet non existant dans la collection"));
             }
         }
+        */
+
 
         public List<Car> FindAllByName(String Name)
         {

@@ -23,7 +23,7 @@ namespace GestionLocation.Service
         public void Save( Car car)
         {
 
-            if (!Exists(Car.Name))
+            if (!Exists(car.Name))
             {
 
                 this.carDal.AddCar(car);
@@ -56,7 +56,7 @@ namespace GestionLocation.Service
 
 
         }
-
+        /*
         public Car Update(Car car )
         {
 
@@ -84,8 +84,10 @@ namespace GestionLocation.Service
 
 
         }
+        */
 
 
+       /*
         public int Delete(int Id)
         {
             Car CarToDelete = carDal.FindById(Id);
@@ -99,6 +101,7 @@ namespace GestionLocation.Service
                 throw new Exception("La voiture que vous voulez supprimer n'existe pas!");
             }
         }
+        */
 
         public List<Car> Filter(String Name)
         {
@@ -110,12 +113,13 @@ namespace GestionLocation.Service
             return carDal.FindByName(Name);
         }
 
-        public List<Car> FindAll()
+        
+        /*public List<Car> FindAll()
         {
             return carDal.GetBuildings();
         }
 
-
+        */
 
     }
 }

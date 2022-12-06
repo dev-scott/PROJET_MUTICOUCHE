@@ -26,7 +26,7 @@ namespace GestionLocation.Type.Commons
             this.Id = ++INC_ID;
         }
 
-        public Car(int Id, String Name, String Model, String Availab , int Price)
+        public Car(int Id, String Name, String Model, String Available , int Price)
         {
             this.Name = Name;
             this.Model = Model;
@@ -34,6 +34,15 @@ namespace GestionLocation.Type.Commons
             this.Price = Price;
             this.Id = Id;
         }
+        public Car(int Id,String Name, String Model, String Available)
+        {
+            this.Name = Name;
+            this.Model = Model;
+            this.Available = Available;
+            this.Id = ++INC_ID;
+        }
+
+
 
         public bool IsNull()
         {

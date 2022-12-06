@@ -91,6 +91,7 @@
             this.Mycar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Mycar.TabIndex = 1;
             this.Mycar.TabStop = false;
+            this.Mycar.Click += new System.EventHandler(this.Mycar_Click);
             // 
             // guna2GradientButton1
             // 

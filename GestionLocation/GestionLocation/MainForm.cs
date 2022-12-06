@@ -16,6 +16,7 @@ namespace GestionLocation
     public partial class MainForm : Form
     {
         public List<Car> cars;
+        public List<Customer> customer;
     
 
         public MainForm()
@@ -73,6 +74,11 @@ namespace GestionLocation
             this.Hide();
             DashBoad board = new DashBoad();
             board.Show();
+        }
+
+        private void Mycar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
