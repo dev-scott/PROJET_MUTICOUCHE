@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace GestionLocation.Service
 {
-    internal class CustomerService
+    public class CustomerService
     {
+
+       
+
     }
 }

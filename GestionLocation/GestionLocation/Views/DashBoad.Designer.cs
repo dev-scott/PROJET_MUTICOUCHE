@@ -34,24 +34,24 @@
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.Mycar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2CustomGradientPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2CustomGradientPanel5 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2CustomGradientPanel6 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2CustomGradientPanel7 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.CarLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.CustomerLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2CustomGradientPanel6 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2CustomGradientPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.UserLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2CustomGradientPanel5 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2CustomGradientPanel7 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Mycar)).BeginInit();
             this.guna2CustomGradientPanel2.SuspendLayout();
             this.guna2CustomGradientPanel3.SuspendLayout();
+            this.guna2CustomGradientPanel6.SuspendLayout();
             this.guna2CustomGradientPanel4.SuspendLayout();
             this.guna2CustomGradientPanel5.SuspendLayout();
-            this.guna2CustomGradientPanel6.SuspendLayout();
             this.guna2CustomGradientPanel7.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -110,6 +110,16 @@
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
             this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(200, 125);
             this.guna2CustomGradientPanel2.TabIndex = 41;
+            this.guna2CustomGradientPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2CustomGradientPanel2_Paint);
+            // 
+            // CarLbl
+            // 
+            this.CarLbl.BackColor = System.Drawing.Color.Transparent;
+            this.CarLbl.Location = new System.Drawing.Point(21, 80);
+            this.CarLbl.Name = "CarLbl";
+            this.CarLbl.Size = new System.Drawing.Size(86, 15);
+            this.CarLbl.TabIndex = 0;
+            this.CarLbl.Text = "guna2HtmlLabel6";
             // 
             // guna2CustomGradientPanel3
             // 
@@ -121,22 +131,14 @@
             this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(200, 125);
             this.guna2CustomGradientPanel3.TabIndex = 42;
             // 
-            // guna2CustomGradientPanel4
+            // CustomerLbl
             // 
-            this.guna2CustomGradientPanel4.Controls.Add(this.UserLbl);
-            this.guna2CustomGradientPanel4.FillColor = System.Drawing.Color.LightGreen;
-            this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(523, 440);
-            this.guna2CustomGradientPanel4.Name = "guna2CustomGradientPanel4";
-            this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(200, 125);
-            this.guna2CustomGradientPanel4.TabIndex = 42;
-            // 
-            // guna2CustomGradientPanel5
-            // 
-            this.guna2CustomGradientPanel5.Controls.Add(this.guna2HtmlLabel2);
-            this.guna2CustomGradientPanel5.Location = new System.Drawing.Point(62, 440);
-            this.guna2CustomGradientPanel5.Name = "guna2CustomGradientPanel5";
-            this.guna2CustomGradientPanel5.Size = new System.Drawing.Size(200, 22);
-            this.guna2CustomGradientPanel5.TabIndex = 43;
+            this.CustomerLbl.BackColor = System.Drawing.Color.Transparent;
+            this.CustomerLbl.Location = new System.Drawing.Point(30, 90);
+            this.CustomerLbl.Name = "CustomerLbl";
+            this.CustomerLbl.Size = new System.Drawing.Size(86, 15);
+            this.CustomerLbl.TabIndex = 1;
+            this.CustomerLbl.Text = "guna2HtmlLabel6";
             // 
             // guna2CustomGradientPanel6
             // 
@@ -145,23 +147,6 @@
             this.guna2CustomGradientPanel6.Name = "guna2CustomGradientPanel6";
             this.guna2CustomGradientPanel6.Size = new System.Drawing.Size(200, 22);
             this.guna2CustomGradientPanel6.TabIndex = 44;
-            // 
-            // guna2CustomGradientPanel7
-            // 
-            this.guna2CustomGradientPanel7.Controls.Add(this.guna2HtmlLabel5);
-            this.guna2CustomGradientPanel7.Location = new System.Drawing.Point(523, 440);
-            this.guna2CustomGradientPanel7.Name = "guna2CustomGradientPanel7";
-            this.guna2CustomGradientPanel7.Size = new System.Drawing.Size(200, 22);
-            this.guna2CustomGradientPanel7.TabIndex = 45;
-            // 
-            // guna2HtmlLabel2
-            // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(39, 6);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(19, 15);
-            this.guna2HtmlLabel2.TabIndex = 0;
-            this.guna2HtmlLabel2.Text = "Car";
             // 
             // guna2HtmlLabel3
             // 
@@ -172,32 +157,15 @@
             this.guna2HtmlLabel3.TabIndex = 1;
             this.guna2HtmlLabel3.Text = "Customer";
             // 
-            // guna2HtmlLabel5
+            // guna2CustomGradientPanel4
             // 
-            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(60, 4);
-            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(25, 15);
-            this.guna2HtmlLabel5.TabIndex = 2;
-            this.guna2HtmlLabel5.Text = "User";
-            // 
-            // CarLbl
-            // 
-            this.CarLbl.BackColor = System.Drawing.Color.Transparent;
-            this.CarLbl.Location = new System.Drawing.Point(21, 80);
-            this.CarLbl.Name = "CarLbl";
-            this.CarLbl.Size = new System.Drawing.Size(86, 15);
-            this.CarLbl.TabIndex = 0;
-            this.CarLbl.Text = "guna2HtmlLabel6";
-            // 
-            // CustomerLbl
-            // 
-            this.CustomerLbl.BackColor = System.Drawing.Color.Transparent;
-            this.CustomerLbl.Location = new System.Drawing.Point(30, 90);
-            this.CustomerLbl.Name = "CustomerLbl";
-            this.CustomerLbl.Size = new System.Drawing.Size(86, 15);
-            this.CustomerLbl.TabIndex = 1;
-            this.CustomerLbl.Text = "guna2HtmlLabel6";
+            this.guna2CustomGradientPanel4.Controls.Add(this.UserLbl);
+            this.guna2CustomGradientPanel4.FillColor = System.Drawing.Color.LightGreen;
+            this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(523, 440);
+            this.guna2CustomGradientPanel4.Name = "guna2CustomGradientPanel4";
+            this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(200, 125);
+            this.guna2CustomGradientPanel4.TabIndex = 42;
+            this.guna2CustomGradientPanel4.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2CustomGradientPanel4_Paint);
             // 
             // UserLbl
             // 
@@ -207,6 +175,41 @@
             this.UserLbl.Size = new System.Drawing.Size(86, 15);
             this.UserLbl.TabIndex = 45;
             this.UserLbl.Text = "guna2HtmlLabel6";
+            // 
+            // guna2CustomGradientPanel5
+            // 
+            this.guna2CustomGradientPanel5.Controls.Add(this.guna2HtmlLabel2);
+            this.guna2CustomGradientPanel5.Location = new System.Drawing.Point(62, 440);
+            this.guna2CustomGradientPanel5.Name = "guna2CustomGradientPanel5";
+            this.guna2CustomGradientPanel5.Size = new System.Drawing.Size(200, 22);
+            this.guna2CustomGradientPanel5.TabIndex = 43;
+            this.guna2CustomGradientPanel5.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2CustomGradientPanel5_Paint);
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(39, 6);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(19, 15);
+            this.guna2HtmlLabel2.TabIndex = 0;
+            this.guna2HtmlLabel2.Text = "Car";
+            // 
+            // guna2CustomGradientPanel7
+            // 
+            this.guna2CustomGradientPanel7.Controls.Add(this.guna2HtmlLabel5);
+            this.guna2CustomGradientPanel7.Location = new System.Drawing.Point(523, 440);
+            this.guna2CustomGradientPanel7.Name = "guna2CustomGradientPanel7";
+            this.guna2CustomGradientPanel7.Size = new System.Drawing.Size(200, 22);
+            this.guna2CustomGradientPanel7.TabIndex = 45;
+            // 
+            // guna2HtmlLabel5
+            // 
+            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(60, 4);
+            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(25, 15);
+            this.guna2HtmlLabel5.TabIndex = 2;
+            this.guna2HtmlLabel5.Text = "User";
             // 
             // DashBoad
             // 
@@ -232,12 +235,12 @@
             this.guna2CustomGradientPanel2.PerformLayout();
             this.guna2CustomGradientPanel3.ResumeLayout(false);
             this.guna2CustomGradientPanel3.PerformLayout();
+            this.guna2CustomGradientPanel6.ResumeLayout(false);
+            this.guna2CustomGradientPanel6.PerformLayout();
             this.guna2CustomGradientPanel4.ResumeLayout(false);
             this.guna2CustomGradientPanel4.PerformLayout();
             this.guna2CustomGradientPanel5.ResumeLayout(false);
             this.guna2CustomGradientPanel5.PerformLayout();
-            this.guna2CustomGradientPanel6.ResumeLayout(false);
-            this.guna2CustomGradientPanel6.PerformLayout();
             this.guna2CustomGradientPanel7.ResumeLayout(false);
             this.guna2CustomGradientPanel7.PerformLayout();
             this.ResumeLayout(false);
